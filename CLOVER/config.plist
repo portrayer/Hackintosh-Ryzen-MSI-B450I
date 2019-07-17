@@ -112,7 +112,7 @@
 			<string>Legacy</string>
 		</array>
 		<key>KbdPrevLang</key>
-		<true/>
+		<false/>
 		<key>Language</key>
 		<string>en:0</string>
 		<key>Mouse</key>
@@ -123,9 +123,9 @@
 		<key>Scan</key>
 		<true/>
 		<key>TextOnly</key>
-		<true/>
+		<false/>
 		<key>Theme</key>
-		<string>embedded</string>
+		<string>Clovy</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -1400,8 +1400,8 @@
 		<string>Yes</string>
 		<key>InjectSystemID</key>
 		<true/>
-                <key>NvidiaWeb</key>
-                <true/>
+		<key>NvidiaWeb</key>
+		<true/>
 	</dict>
 </dict>
 </plist>
