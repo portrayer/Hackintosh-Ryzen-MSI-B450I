@@ -54,7 +54,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>npci=0x2000 alcid=7 brcmfx-driver=2</string>
+		<string>npci=0x2000 alcid=7 brcmfx-driver=2 brcmfx-country=#a</string>
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
 		<key>DefaultVolume</key>
@@ -110,7 +110,7 @@
 				<key>device_type</key>
 				<string>Airport Extreme</string>
 				<key>model</key>
-				<string>Dell DW1820 (BCM4350) 802.11ac wireless</string>
+				<string>Dell DW1820A (BCM4350) 802.11ac wireless</string>
 				<key>name</key>
 				<string>Airport</string>
 			</dict>
