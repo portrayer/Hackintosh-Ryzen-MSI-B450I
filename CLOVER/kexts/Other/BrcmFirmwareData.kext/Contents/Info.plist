@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>17G6030</string>
+	<string>18D109</string>
 	<key>CFBundleExecutable</key>
-	<string>BrcmFirmwareRepo</string>
+	<string>BrcmFirmwareData</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.no-one.BrcmFirmwareStore</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>BrcmFirmwareRepo</string>
+	<string>BrcmFirmwareData</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
@@ -31,9 +31,9 @@
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>10M2518</string>
+	<string>18B71</string>
 	<key>DTSDKName</key>
-	<string>macosx10.6</string>
+	<string>macosx10.14</string>
 	<key>DTXcode</key>
 	<string>1010</string>
 	<key>DTXcodeBuild</key>
