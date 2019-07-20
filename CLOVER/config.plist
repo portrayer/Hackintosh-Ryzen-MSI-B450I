@@ -23,7 +23,7 @@
 				<key>FixHDA</key>
 				<false/>
 				<key>FixHPET</key>
-				<true/>
+				<false/>
 				<key>FixLAN</key>
 				<false/>
 				<key>FixRTC</key>
@@ -82,6 +82,13 @@
 	</dict>
 	<key>Devices</key>
 	<dict>
+		<key>Audio</key>
+		<dict>
+			<key>AFGLowPowerState</key>
+			<true/>
+			<key>ResetHDA</key>
+			<true/>
+		</dict>
 		<key>ForceHPET</key>
 		<false/>
 		<key>HDMIInjection</key>
@@ -91,7 +98,7 @@
 		<key>InjectLAN</key>
 		<false/>
 		<key>LANInjection</key>
-		<false/>
+		<true/>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x1,0x3)/Pci(0x0,0x2)/Pci(0x5,0x0)/Pci(0x0,0x0)</key>
@@ -128,7 +135,7 @@
 			<string>Legacy</string>
 		</array>
 		<key>KbdPrevLang</key>
-		<false/>
+		<true/>
 		<key>Language</key>
 		<string>en:0</string>
 		<key>Mouse</key>
