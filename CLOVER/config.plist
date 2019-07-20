@@ -54,7 +54,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>npci=0x2000 kext-dev-mode=1 alcid=7 brcmfx-driver=2</string>
+		<string>npci=0x2000 alcid=7 brcmfx-driver=2</string>
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
 		<key>DefaultVolume</key>
@@ -1424,7 +1424,7 @@
 		<key>PlatformFeature</key>
 		<string>0x01</string>
 		<key>ProductName</key>
-		<string>iMac13,2</string>
+		<string>iMac14,2</string>
 		<key>SerialNumber</key>
 		<string>D25QLLYHF8JC</string>
 		<key>SmUUID</key>
