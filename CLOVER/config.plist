@@ -54,7 +54,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>npci=0x2000 alcid=7 brcmfx-driver=2 brcmfx-country=#a ngfxcompat=1</string>
+		<string>npci=0x2000 alcid=7 brcmfx-driver=2 brcmfx-country=#a</string>
 		<key>DefaultLoader</key>
 		<string>boot.efi</string>
 		<key>DefaultVolume</key>
@@ -1572,8 +1572,6 @@
 		<key>InjectKexts</key>
 		<string>Yes</string>
 		<key>InjectSystemID</key>
-		<true/>
-		<key>NvidiaWeb</key>
 		<true/>
 	</dict>
 </dict>
