@@ -55,16 +55,14 @@
 	<dict>
 		<key>Arguments</key>
 		<string>npci=0x2000 alcid=7 brcmfx-driver=2 brcmfx-country=#a</string>
-		<key>DefaultLoader</key>
-		<string>boot.efi</string>
 		<key>DefaultVolume</key>
-		<string>LastBootedVolume</string>
+		<string>EFI</string>
 		<key>Legacy</key>
 		<string>PBR</string>
 		<key>NeverHibernate</key>
 		<true/>
 		<key>Timeout</key>
-		<integer>-1</integer>
+		<integer>3</integer>
 	</dict>
 	<key>BootGraphics</key>
 	<dict>
@@ -131,6 +129,8 @@
 		<string>Dark</string>
 		<key>Hide</key>
 		<array>
+		    <string>BOOTX64.EFI</string>
+			<string>Windows</string>
 			<string>Preboot</string>
 			<string>Legacy</string>
 		</array>
@@ -144,7 +144,14 @@
 			<true/>
 		</dict>
 		<key>Scan</key>
-		<true/>
+		<dict>
+			<key>Entries</key>
+			<true/>
+			<key>Legacy</key>
+			<false/>
+			<key>Tool</key>
+			<true/>
+		</dict>
 		<key>TextOnly</key>
 		<false/>
 		<key>Theme</key>
@@ -1514,7 +1521,7 @@
 		<key>BooterConfig</key>
 		<string>0x2A</string>
 		<key>CsrActiveConfig</key>
-		<string>0x67</string>
+		<string>0x7</string>
 		<key>ROM</key>
 		<string>UseMacAddr0</string>
 	</dict>
