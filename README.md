@@ -16,7 +16,7 @@
 - [x] CPU by [AMD-Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
 - [x] USB by [XLNC's script](https://forum.amd-osx.com/viewtopic.php?f=24&t=4986)
 - [x] Audio by [AppleALC](https://github.com/acidanthera/AppleALC) (alcid=7)
-- [x] Video by [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
+- [x] Graphics by [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
 - [x] WIFI by [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) (brcmfx-country=#a)
 - [x] Bluetooth by [BrcmPatchRAM](https://github.com/RehabMan/OS-X-BrcmPatchRAM) and [nickhx from osxlatitude](https://osxlatitude.com/forums/topic/11540-dw1820a-the-general-troubleshooting-thread/page/10/)
 - [x] iMessage / FaceTime / Airdrop / Handoff
