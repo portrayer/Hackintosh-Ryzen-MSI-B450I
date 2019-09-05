@@ -14,6 +14,7 @@
 ## Functional
 
 - [x] CPU by [AMD-Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
+- [x] USB by [XLNC's script](https://forum.amd-osx.com/viewtopic.php?f=24&t=4986)
 - [x] Audio by [AppleALC](https://github.com/acidanthera/AppleALC) (alcid=7)
 - [x] Video by [WhateverGreen](https://github.com/acidanthera/WhateverGreen)
 - [x] WIFI by [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup) (brcmfx-country=#a)
@@ -23,4 +24,6 @@
 ## Issues
 
 - Unknown processor in About This Mac (need to modify system files)
-- Wrong ram speed display in About This Mac (shows only half speed)
+- Wrong ram speed display in About This Mac (shows half speed)
+- No 32-bit support
+- Can't run andriod emulator since android emulator only supports vt-x, but genymotion and virtualbox with amd-v support work well
