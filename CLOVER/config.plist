@@ -278,7 +278,7 @@
 				H4QAAAAAAA==
 				</data>
 				<key>MatchBuild</key>
-				<string>17G8030</string>
+				<string>17G8030,17G8037</string>
 				<key>MatchOS</key>
 				<string>10.13.6</string>
 				<key>Replace</key>
@@ -320,7 +320,7 @@
 				H4QAAAAAAA==
 				</data>
 				<key>MatchBuild</key>
-				<string>18G95</string>
+				<string>18G95,18G103</string>
 				<key>MatchOS</key>
 				<string>10.14.6</string>
 				<key>Replace</key>
@@ -470,7 +470,7 @@
 				MduAPagMjQAGdVw=
 				</data>
 				<key>MatchBuild</key>
-				<string>17G8030</string>
+				<string>17G8030,17G8037</string>
 				<key>MatchOS</key>
 				<string>10.13.6</string>
 				<key>Replace</key>
@@ -504,7 +504,7 @@
 				MduAPUhpmAAGdVw=
 				</data>
 				<key>MatchBuild</key>
-				<string>18G95</string>
+				<string>18G95,18G103</string>
 				<key>MatchOS</key>
 				<string>10.14.6</string>
 				<key>Replace</key>
@@ -552,7 +552,7 @@
 				jQCJBQwMjQA=
 				</data>
 				<key>MatchBuild</key>
-				<string>17G8030</string>
+				<string>17G8030,17G8037</string>
 				<key>MatchOS</key>
 				<string>10.13.6</string>
 				<key>Replace</key>
@@ -599,7 +599,7 @@
 				Gg==
 				</data>
 				<key>MatchBuild</key>
-				<string>18G95</string>
+				<string>18G95,18G103</string>
 				<key>MatchOS</key>
 				<string>10.14.6</string>
 				<key>Replace</key>
@@ -691,7 +691,7 @@
 				AA==
 				</data>
 				<key>MatchBuild</key>
-				<string>17G8030</string>
+				<string>17G8030,17G8037</string>
 				<key>MatchOS</key>
 				<string>10.13.6</string>
 				<key>Replace</key>
@@ -729,7 +729,7 @@
 				AA==
 				</data>
 				<key>MatchBuild</key>
-				<string>18G95</string>
+				<string>18G95,18G103</string>
 				<key>MatchOS</key>
 				<string>10.14.6</string>
 				<key>Replace</key>
@@ -766,7 +766,7 @@
 				SIkFrKiFAPfDAAABAHQ=
 				</data>
 				<key>MatchBuild</key>
-				<string>17G8030</string>
+				<string>17G8030,17G8037</string>
 				<key>MatchOS</key>
 				<string>10.13.6</string>
 				<key>Replace</key>
@@ -800,7 +800,7 @@
 				SIkFhs+QAPfDAAABAHQ=
 				</data>
 				<key>MatchBuild</key>
-				<string>18G95</string>
+				<string>18G95,18G103</string>
 				<key>MatchOS</key>
 				<string>10.14.6</string>
 				<key>Replace</key>
@@ -852,7 +852,7 @@
 				gz3UlXAAAHQK
 				</data>
 				<key>MatchBuild</key>
-				<string>17G8030</string>
+				<string>17G8030,17G8037</string>
 				<key>MatchOS</key>
 				<string>10.13.6</string>
 				<key>Replace</key>
@@ -886,7 +886,7 @@
 				gz31vXsAAHQK
 				</data>
 				<key>MatchBuild</key>
-				<string>18G95</string>
+				<string>18G95,18G103</string>
 				<key>MatchOS</key>
 				<string>10.14.6</string>
 				<key>Replace</key>
