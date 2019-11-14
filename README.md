@@ -7,7 +7,7 @@
 | CPU                  | Ryzen 3700X              |
 | MB                   | MSI B450I Gaming Plus AC |
 | Audio                | ALC887                   |
-| GPU                  | XFX Radeon RX 480 8 GB   |
+| GPU                  | XFX Radeon RX 5700 8 GB  |
 | RAM                  | 16G DDR4 (8G * 2)        |
 | Wireless & Bluetooth | DW1820A                  |
 
