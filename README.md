@@ -1,4 +1,4 @@
-# Clover EFI for Ryzen 3700X &amp; MSI B450I Gaming Plus AC
+# OpenCore EFI for Ryzen 3700X &amp; MSI B450I Gaming Plus AC
 
 ## HW Builds
 
