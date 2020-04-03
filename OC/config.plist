@@ -6,6 +6,14 @@
 	<dict>
 		<key>Add</key>
 		<array>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-EC-USBX-AMD.aml</string>
+				<key>Path</key>
+				<string>SSDT-EC-USBX-AMD.aml</string>
+				<key>Enabled</key>
+				<true/>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -1483,17 +1491,17 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>F5K913100QXK3F7A8</string>
+			<string>D25543501CDF8YLJA</string>
 			<key>ROM</key>
 			<data>ANhhctXj</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
-			<string>MacPro7,1</string>
+			<string>iMacPro1,1</string>
 			<key>SystemSerialNumber</key>
-			<string>F5KYHGZMP7QM</string>
+			<string>D25QLLYHF8JC</string>
 			<key>SystemUUID</key>
-			<string>D3DD4157-0DF5-46F8-A795-884CFEE98277</string>
+			<string>7A804573-BE42-4831-BE3B-35A97DFE48C7</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
