@@ -1,15 +1,16 @@
-# OpenCore EFI for Ryzen 3700X &amp; MSI B450I Gaming Plus AC
+# EFI for Ryzen 3700X &amp; MSI B450I Gaming Plus AC
 
 ## HW Builds
 
-| Type                 | Name                     |
-|----------------------|--------------------------|
-| CPU                  | Ryzen 3700X              |
-| MB                   | MSI B450I Gaming Plus AC |
-| Audio                | ALC887                   |
-| GPU                  | XFX Radeon RX 5700 8 GB  |
-| RAM                  | 16G DDR4 (8G * 2)        |
-| Wireless & Bluetooth | DW1820A                  |
+| Type                   | Name                                  |
+| ---------------------- | ------------------------------------- |
+| CPU                    | Ryzen 3700X                           |
+| MB                     | MSI B450I Gaming Plus AC              |
+| Audio                  | ALC887                                |
+| GPU                    | XFX Radeon RX 5700 8 GB               |
+| RAM                    | 16G DDR4 (8G * 2)                     |
+| Wireless & Bluetooth   | DW1820A                               |
+| macOS                  | 10.15.x (OpenCore) / 10.15.1 (Clover) |
 
 ## Functional
 
