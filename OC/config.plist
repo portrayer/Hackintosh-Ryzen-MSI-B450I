@@ -1428,7 +1428,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>-v debug=0x100 keepsyms=1 npci=0x2000 alcid=5 agdpmod=pikera brcmfx-country=#a shikigva=32 shiki-id=Mac-7BA5B2D9E42DDD94</string>
+				<string>npci=0x2000 alcid=5 agdpmod=pikera brcmfx-country=#a shikigva=32 shiki-id=Mac-7BA5B2D9E42DDD94</string>
 				<key>csr-active-config</key>
 				<data>AwAAAA==</data>
 				<key>prev-lang:kbd</key>
