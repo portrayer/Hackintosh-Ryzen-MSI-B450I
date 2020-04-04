@@ -1,6 +1,6 @@
 # EFI for Ryzen 3700X &amp; MSI B450I Gaming Plus AC
 
-## HW Builds
+## Builds
 
 | Type                   | Name                                  |
 | ---------------------- | ------------------------------------- |
