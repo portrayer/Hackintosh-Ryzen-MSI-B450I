@@ -1542,6 +1542,8 @@
 				<string>en-US:0</string>
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
+				<key>EnableTRIM</key>
+				<data>AQAAAA==</data>
 			</dict>
 		</dict>
 		<key>Block</key>
