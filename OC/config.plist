@@ -1460,7 +1460,7 @@
 			<key>TakeoffDelay</key>
 			<integer>0</integer>
 			<key>Timeout</key>
-			<integer>5</integer>
+			<integer>3</integer>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1518,7 +1518,7 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>UIScale</key>
-				<data>AQ==</data>
+				<data>Ag==</data>
 				<key>DefaultBackgroundColor</key>
 				<data>AAAAAA==</data>
 			</dict>
@@ -1527,7 +1527,7 @@
 				<key>boot-args</key>
 				<string>npci=0x2000 alcid=5 agdpmod=pikera brcmfx-country=#a shikigva=32 shiki-id=Mac-7BA5B2D9E42DDD94</string>
 				<key>csr-active-config</key>
-				<data>AwAAAA==</data>
+				<data>5wMAAA==</data>
 				<key>prev-lang:kbd</key>
 				<string>en-US:0</string>
 				<key>SystemAudioVolume</key>
