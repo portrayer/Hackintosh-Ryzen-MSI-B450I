@@ -12,6 +12,9 @@
 | Wireless & Bluetooth   | DW1820A                               |
 | macOS                  | 10.15.x (OpenCore) / 10.15.1 (Clover) |
 
+## BIOS Setting
+- [Above 4G memory] Enabled
+
 ## Functional
 
 - [x] CPU by [AMD-Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
@@ -24,7 +27,5 @@
 
 ## Issues
 
-- Unknown processor in About This Mac (need to modify system files)
-- Wrong ram speed display in About This Mac (shows half speed)
-- No 32-bit support
+- mic in of alc887 don't work
 - Can't run andriod emulator since android emulator only supports vt-x, but genymotion and virtualbox with amd-v support work well
