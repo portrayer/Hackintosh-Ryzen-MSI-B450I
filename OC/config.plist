@@ -63,9 +63,17 @@
 			<key>ProvideCustomSlide</key>
 			<true/>
 			<key>SetupVirtualMap</key>
-			<true/>
+			<false/>
 			<key>SignalAppleOS</key>
 			<false/>
+			<key>ProtectMemoryRegions</key>
+			<false/>
+			<key>ProtectUefiServices</key>
+			<false/>
+			<key>RebuildAppleMemoryMap</key>
+			<true/>
+			<key>SyncRuntimePermissions</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>DeviceProperties</key>
@@ -1389,6 +1397,8 @@
 			<integer>2147483714</integer>
 			<key>Target</key>
 			<integer>67</integer>
+			<key>AppleDebug</key>
+			<false/>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -1533,6 +1543,8 @@
 			<string></string>
 			<key>TimerResolution</key>
 			<integer>50000</integer>
+			<key>KeyFiltering</key>
+			<false/>
 		</dict>
 		<key>Output</key>
 		<dict>
@@ -1556,6 +1568,8 @@
 			<false/>
 			<key>SanitiseClearScreen</key>
 			<false/>
+			<key>DirectGopCacheMode</key>
+			<string></string>
 		</dict>
 		<key>Protocols</key>
 		<dict>
@@ -1584,6 +1598,8 @@
 			<key>OSInfo</key>
 			<false/>
 			<key>UnicodeCollation</key>
+			<false/>
+			<key>AppleDebugLog</key>
 			<false/>
 		</dict>
 		<key>Quirks</key>
