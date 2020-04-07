@@ -12,9 +12,6 @@
 | Wireless & Bluetooth   | DW1820A                               |
 | macOS                  | 10.15.x (OpenCore) / 10.15.1 (Clover) |
 
-## BIOS Setting
-- [Above 4G memory] Enabled
-
 ## Functional
 
 - [x] CPU by [AMD-Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
