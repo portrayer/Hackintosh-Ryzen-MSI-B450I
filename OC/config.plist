@@ -15,9 +15,6 @@
 				<true/>
 			</dict>
 		</array>
-		<key>Block</key>
-		<array>
-		</array>
 		<key>Patch</key>
 		<array>
 		</array>
@@ -191,8 +188,6 @@
 				<data>AQ==</data>
 			</dict>
 		</dict>
-		<key>Block</key>
-		<dict/>
 	</dict>
 	<key>Kernel</key>
 	<dict>
@@ -1374,8 +1369,6 @@
 			<string>Builtin</string>
 			<key>HideAuxiliary</key>
 			<false/>
-			<key>HideSelf</key>
-			<false/>
 			<key>PickerAttributes</key>
 			<integer>0</integer>
 			<key>PickerAudioAssist</key>
@@ -1401,6 +1394,8 @@
 			<integer>3</integer>
 			<key>AppleDebug</key>
 			<false/>
+			<key>ApplePanic</key>
+			<true/>
 		</dict>
 		<key>Entries</key>
 		<array>
@@ -1421,8 +1416,10 @@
 			<string>Optional</string>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
+			<key>BlacklistAppleUpdate</key>
+			<true/>
 			<key>BootProtect</key>
-			<string>None</string>
+			<string>Bootstrap</string>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -1452,18 +1449,6 @@
 				<key>EnableTRIM</key>
 				<data>AQAAAA==</data>
 			</dict>
-		</dict>
-		<key>Block</key>
-		<dict>
-			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
-			<array>
-				<string>UIScale</string>
-				<string>DefaultBackgroundColor</string>
-			</array>
-			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
-			<array>
-				<string>boot-args</string>
-			</array>
 		</dict>
 		<key>LegacyEnable</key>
 		<false/>
@@ -1563,16 +1548,14 @@
 			<false/>
 			<key>ProvideConsoleGop</key>
 			<true/>
-			<key>DirectGopRendering</key>
-			<false/>
 			<key>ReconnectOnResChange</key>
 			<false/>
 			<key>ReplaceTabWithSpace</key>
 			<false/>
 			<key>SanitiseClearScreen</key>
 			<false/>
-			<key>DirectGopCacheMode</key>
-			<string></string>
+			<key>DirectGopRendering</key>
+			<false/>
 		</dict>
 		<key>Quirks</key>
 		<dict>
@@ -1582,12 +1565,14 @@
 			<false/>
 			<key>ReleaseUsbOwnership</key>
 			<false/>
-			<key>RequestBootVarFallback</key>
-			<true/>
 			<key>RequestBootVarRouting</key>
 			<true/>
 			<key>UnblockFsConnect</key>
 			<false/>
+			<key>DeduplicateBootOrder</key>
+			<true/>
+			<key>TscSyncTimeout</key>
+			<integer>0</integer>
 		</dict>
 		<key>APFS</key>
 		<dict>
