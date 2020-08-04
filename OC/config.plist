@@ -52,7 +52,7 @@
 			<key>EnableSafeModeSlide</key>
 			<true/>
 			<key>EnableWriteUnprotector</key>
-			<true/>
+			<false/>
 			<key>ForceExitBootServices</key>
 			<false/>
 			<key>ProtectSecureBoot</key>
@@ -71,6 +71,8 @@
 			<true/>
 			<key>SyncRuntimePermissions</key>
 			<true/>
+			<key>ProvideMaxSlide</key>
+			<integer>0</integer>
 		</dict>
 	</dict>
 	<key>DeviceProperties</key>
@@ -1416,8 +1418,6 @@
 			<string>Optional</string>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
-			<key>BlacklistAppleUpdate</key>
-			<true/>
 			<key>BootProtect</key>
 			<string>Bootstrap</string>
 		</dict>
@@ -1556,6 +1556,8 @@
 			<false/>
 			<key>DirectGopRendering</key>
 			<false/>
+			<key>UgaPassThrough</key>
+			<false/>
 		</dict>
 		<key>Quirks</key>
 		<dict>
@@ -1586,6 +1588,8 @@
 			<integer>0</integer>
 			<key>MinVersion</key>
 			<integer>0</integer>
+			<key>GlobalConnect</key>
+			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -1618,6 +1622,8 @@
 			<key>OSInfo</key>
 			<false/>
 			<key>UnicodeCollation</key>
+			<false/>
+			<key>AppleFramebufferInfo</key>
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
