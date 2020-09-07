@@ -1395,7 +1395,7 @@
 			<key>Target</key>
 			<integer>3</integer>
 			<key>AppleDebug</key>
-			<false/>
+			<true/>
 			<key>ApplePanic</key>
 			<true/>
 		</dict>
@@ -1420,6 +1420,12 @@
 			<integer>0</integer>
 			<key>BootProtect</key>
 			<string>Bootstrap</string>
+			<key>ApECID</key>
+			<integer>0</integer>
+			<key>EnablePassword</key>
+			<false/>
+			<key>DmgLoading</key>
+			<string>Signed</string>
 		</dict>
 		<key>Tools</key>
 		<array>
@@ -1591,6 +1597,9 @@
 			<key>GlobalConnect</key>
 			<false/>
 		</dict>
+		<key>ReservedMemory</key>
+		<array>
+		</array>
 		<key>ProtocolOverrides</key>
 		<dict>
 			<key>AppleAudio</key>
@@ -1601,15 +1610,19 @@
 			<false/>
 			<key>AppleEvent</key>
 			<false/>
+			<key>AppleFramebufferInfo</key>
+			<false/>
 			<key>AppleImageConversion</key>
+			<false/>
+			<key>AppleImg4Verification</key>
 			<false/>
 			<key>AppleKeyMap</key>
 			<false/>
 			<key>AppleRtcRam</key>
 			<false/>
-			<key>AppleSmcIo</key>
+			<key>AppleSecureBoot</key>
 			<false/>
-			<key>AppleUserInterfaceTheme</key>
+			<key>AppleSmcIo</key>
 			<false/>
 			<key>DataHub</key>
 			<false/>
@@ -1623,12 +1636,7 @@
 			<false/>
 			<key>UnicodeCollation</key>
 			<false/>
-			<key>AppleFramebufferInfo</key>
-			<false/>
 		</dict>
-		<key>ReservedMemory</key>
-		<array>
-		</array>
 	</dict>
 </dict>
 </plist>
