@@ -287,22 +287,6 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/BT4LEContinuityFixup</string>
-				<key>BundlePath</key>
-				<string>BT4LEContinuityFixup.kext</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string></string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-				<key>Enabled</key>
-				<true/>
-				<key>MinKernel</key>
-				<string></string>
-				<key>ExecutablePath</key>
 				<string></string>
 				<key>BundlePath</key>
 				<string>BrcmBluetoothInjector.kext</string>
@@ -397,6 +381,8 @@
 			<data></data>
 			<key>Cpuid1Mask</key>
 			<data></data>
+			<key>DummyPowerManagement</key>
+			<true/>
 		</dict>
 		<key>Quirks</key>
 		<dict>
@@ -412,8 +398,6 @@
 			<false/>
 			<key>DisableIoMapper</key>
 			<false/>
-			<key>DummyPowerManagement</key>
-			<true/>
 			<key>ExternalDiskIcons</key>
 			<false/>
 			<key>IncreasePciBarSize</key>
@@ -428,6 +412,10 @@
 			<false/>
 			<key>DisableRtcChecksum</key>
 			<false/>
+			<key>LegacyCommpage</key>
+			<false/>
+			<key>ExtendBTFeatureFlags</key>
+			<true/>
 		</dict>
 		<key>Patch</key>
 		<array>
@@ -1549,6 +1537,8 @@
 			<string>D25QLLYHF8JC</string>
 			<key>SystemUUID</key>
 			<string>7A804573-BE42-4831-BE3B-35A97DFE48C7</string>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1701,6 +1691,8 @@
 			<key>OSInfo</key>
 			<false/>
 			<key>UnicodeCollation</key>
+			<false/>
+			<key>AppleUserInterfaceTheme</key>
 			<false/>
 		</dict>
 	</dict>
