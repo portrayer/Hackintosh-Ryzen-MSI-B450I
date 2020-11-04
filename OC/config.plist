@@ -1620,6 +1620,8 @@
 			<false/>
 			<key>UgaPassThrough</key>
 			<false/>
+			<key>ForceResolution</key>
+			<false/>
 		</dict>
 		<key>Quirks</key>
 		<dict>
