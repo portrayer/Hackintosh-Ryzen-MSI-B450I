@@ -247,6 +247,22 @@
 				<key>Comment</key>
 				<string></string>
 				<key>MaxKernel</key>
+				<string>19.9.9</string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>BundlePath</key>
+				<string>AirportBrcmFixup.kext/Contents/PlugIns/AirPortBrcm4360_Injector.kext</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
 				<string></string>
 				<key>PlistPath</key>
 				<string>Contents/Info.plist</string>
@@ -319,9 +335,9 @@
 				<key>MinKernel</key>
 				<string></string>
 				<key>ExecutablePath</key>
-				<string>Contents/MacOS/BrcmPatchRAM2</string>
+				<string>Contents/MacOS/BrcmPatchRAM3</string>
 				<key>BundlePath</key>
-				<string>BrcmPatchRAM2.kext</string>
+				<string>BrcmPatchRAM3.kext</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -1581,7 +1597,7 @@
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>npci=0x2000 alcid=5 agdpmod=pikera brcmfx-country=#a shikigva=32 shiki-id=Mac-7BA5B2D9E42DDD94</string>
+				<string>npci=0x2000 alcid=5 agdpmod=pikera brcmfx-country=#a brcmfx-aspm shikigva=32 shiki-id=Mac-7BA5B2D9E42DDD94</string>
 				<key>csr-active-config</key>
 				<data>AwAAAA==</data>
 				<key>prev-lang:kbd</key>

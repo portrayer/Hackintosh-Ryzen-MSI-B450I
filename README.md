@@ -10,7 +10,7 @@
 | GPU                    | XFX Radeon RX 5700 8 GB               |
 | RAM                    | 16G DDR4 (8G * 2)                     |
 | Wireless & Bluetooth   | DW1820A                               |
-| macOS                  | 10.15.x (OpenCore) / 10.15.1 (Clover) |
+| macOS                  | Big Sur & Catalina                    |
 
 ## Functional
 
