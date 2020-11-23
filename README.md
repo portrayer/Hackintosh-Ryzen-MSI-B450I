@@ -1,4 +1,4 @@
-# EFI for Ryzen 3700X &amp; MSI B450I Gaming Plus AC
+# [OpenCore](https://github.com/acidanthera/OpenCorePkg) configuration for Ryzen 3700X &amp; MSI B450I Gaming Plus AC
 
 ## Builds
 
