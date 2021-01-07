@@ -1904,8 +1904,6 @@
 			<true/>
 			<key>UnblockFsConnect</key>
 			<false/>
-			<key>DeduplicateBootOrder</key>
-			<true/>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 		</dict>
