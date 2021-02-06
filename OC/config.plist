@@ -16,7 +16,8 @@
 			</dict>
 		</array>
 		<key>Patch</key>
-		<array/>
+		<array>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>FadtEnableReset</key>
@@ -34,7 +35,8 @@
 	<key>Booter</key>
 	<dict>
 		<key>MmioWhitelist</key>
-		<array/>
+		<array>
+		</array>
 		<key>Quirks</key>
 		<dict>
 			<key>AvoidRuntimeDefrag</key>
@@ -431,7 +433,8 @@
 			</dict>
 		</array>
 		<key>Block</key>
-		<array/>
+		<array>
+		</array>
 		<key>Emulate</key>
 		<dict>
 			<key>Cpuid1Data</key>
@@ -479,6 +482,8 @@
 			<false/>
 			<key>XhciPortLimit</key>
 			<true/>
+			<key>SetApfsTrimTimeout</key>
+			<integer>-1</integer>
 		</dict>
 		<key>Patch</key>
 		<array>
@@ -1691,6 +1696,10 @@
 			<integer>3</integer>
 			<key>ConsoleAttributes</key>
 			<integer>0</integer>
+			<key>LauncherPath</key>
+			<string>Default</string>
+			<key>LauncherOption</key>
+			<string>Disabled</string>
 		</dict>
 		<key>Debug</key>
 		<dict>
@@ -1712,7 +1721,8 @@
 			<false/>
 		</dict>
 		<key>Entries</key>
-		<array/>
+		<array>
+		</array>
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
@@ -1729,8 +1739,6 @@
 			<string>Optional</string>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
-			<key>BootProtect</key>
-			<string>Bootstrap</string>
 			<key>ApECID</key>
 			<integer>0</integer>
 			<key>EnablePassword</key>
@@ -1747,7 +1755,8 @@
 			<string>Disabled</string>
 		</dict>
 		<key>Tools</key>
-		<array/>
+		<array>
+		</array>
 	</dict>
 	<key>NVRAM</key>
 	<dict>
@@ -1805,6 +1814,8 @@
 			<string>Auto</string>
 			<key>ProcessorType</key>
 			<integer>0</integer>
+			<key>MaxBIOSVersion</key>
+			<false/>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -1906,6 +1917,8 @@
 			<false/>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
+			<key>DisableSecurityPolicy</key>
+			<false/>
 		</dict>
 		<key>APFS</key>
 		<dict>
@@ -1923,7 +1936,8 @@
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
-		<array/>
+		<array>
+		</array>
 		<key>ProtocolOverrides</key>
 		<dict>
 			<key>AppleAudio</key>
