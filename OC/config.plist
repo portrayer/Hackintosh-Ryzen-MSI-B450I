@@ -30,6 +30,8 @@
 			<key>ResetLogoStatus</key>
 			<false/>
 		</dict>
+		<key>Delete</key>
+		<array/>
 	</dict>
 	<key>Booter</key>
 	<dict>
@@ -483,6 +485,8 @@
 			<true/>
 			<key>SetApfsTrimTimeout</key>
 			<integer>-1</integer>
+			<key>ProvideCurrentCpuInfo</key>
+			<false/>
 		</dict>
 		<key>Patch</key>
 		<array>
@@ -1714,7 +1718,7 @@
 			<key>PickerAttributes</key>
 			<integer>17</integer>
 			<key>PickerVariant</key>
-			<string>Modern</string>
+			<string>Default</string>
 			<key>PickerAudioAssist</key>
 			<false/>
 			<key>PollAppleHotKeys</key>
@@ -1783,6 +1787,8 @@
 			<data></data>
 			<key>SecureBootModel</key>
 			<string>Disabled</string>
+			<key>AllowToggleSip</key>
+			<false/>
 		</dict>
 		<key>Tools</key>
 		<array/>
@@ -1805,11 +1811,13 @@
 				<key>csr-active-config</key>
 				<data>AwAAAA==</data>
 				<key>prev-lang:kbd</key>
-				<string>en-US:0</string>
+				<data></data>
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>EnableTRIM</key>
 				<data>AQAAAA==</data>
+				<key>ForceDisplayRotationInEFI</key>
+				<integer>0</integer>
 			</dict>
 		</dict>
 		<key>LegacyEnable</key>
@@ -1825,7 +1833,7 @@
 		<true/>
 		<key>Generic</key>
 		<dict>
-			<key>AdviseWindows</key>
+			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
 			<string>D25543501CDF8YLJA</string>
@@ -1855,6 +1863,8 @@
 		<key>UpdateSMBIOSMode</key>
 		<string>Create</string>
 		<key>CustomMemory</key>
+		<false/>
+		<key>UseRawUuidEncoding</key>
 		<false/>
 	</dict>
 	<key>UEFI</key>
@@ -1934,7 +1944,7 @@
 			<key>ForceResolution</key>
 			<false/>
 			<key>GopPassThrough</key>
-			<false/>
+			<string>Disabled</string>
 		</dict>
 		<key>Quirks</key>
 		<dict>
@@ -1953,6 +1963,12 @@
 			<key>DisableSecurityPolicy</key>
 			<false/>
 			<key>ActivateHpetSupport</key>
+			<false/>
+			<key>EnableVectorAcceleration</key>
+			<false/>
+			<key>ForgeUefiSupport</key>
+			<false/>
+			<key>ReloadOptionRoms</key>
 			<false/>
 		</dict>
 		<key>APFS</key>
@@ -2008,13 +2024,15 @@
 			<false/>
 			<key>AppleUserInterfaceTheme</key>
 			<false/>
+			<key>AppleEg2Info</key>
+			<false/>
 		</dict>
 		<key>AppleInput</key>
 		<dict>
 			<key>AppleEvent</key>
 			<string>Builtin</string>
 			<key>CustomDelays</key>
-			<string>Auto</string>
+			<false/>
 			<key>KeyInitialDelay</key>
 			<integer>0</integer>
 			<key>KeySubsequentDelay</key>
