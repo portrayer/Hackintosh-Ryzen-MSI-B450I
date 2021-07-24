@@ -1,6 +1,8 @@
 .DS_Store
 ._*
 *.empty
+.idea
+.vscode
 Microsoft
 APPLE
 CLOVER/ACPI/origin
