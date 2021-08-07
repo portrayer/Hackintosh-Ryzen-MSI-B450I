@@ -12,6 +12,10 @@
 | Wireless & Bluetooth   | DW1820A                               |
 | macOS                  | Big Sur & Catalina                    |
 
+## Read Me First!
+If your cpu don't have 8 cores (e.g. 6 core 5600X), you must change patch values of `algrey - Force cpuid_cores_per_package` to boot your system.
+See [AMD_Vanilla ReadMe](https://github.com/AMD-OSX/AMD_Vanilla#read-me-first) for details.
+
 ## Functional
 
 - [x] CPU by [AMD-Vanilla](https://github.com/AMD-OSX/AMD_Vanilla)
