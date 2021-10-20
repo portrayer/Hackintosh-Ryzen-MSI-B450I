@@ -7,7 +7,7 @@
 | CPU                    | Ryzen 3700X                           |
 | MB                     | MSI B450I Gaming Plus AC              |
 | Audio                  | ALC887                                |
-| GPU                    | RX 6800 XT (All Polaris & Navi cards)             |
+| GPU                    | RX 6800 XT (All Polaris & Navi cards) |
 | RAM                    | 16G DDR4 (8G * 2)                     |
 | Wireless & Bluetooth   | DW1820A                               |
 | macOS                  | Big Sur & Catalina                    |
