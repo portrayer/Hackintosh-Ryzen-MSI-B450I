@@ -76,7 +76,7 @@
                 <key>RebuildAppleMemoryMap</key>
                 <true/>
                 <key>ResizeAppleGpuBars</key>
-                <integer>8</integer>
+                <integer>0</integer>
                 <key>SetupVirtualMap</key>
                 <false/>
                 <key>SignalAppleOS</key>
@@ -118,7 +118,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.5</string>
+                    <string>V1.5.9</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -136,7 +136,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.6</string>
+                    <string>V1.2.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -190,7 +190,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.3</string>
+                    <string>V1.6.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -226,7 +226,7 @@
                     <key>BundlePath</key>
                     <string>BrcmBluetoothInjector.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.0</string>
+                    <string>V2.6.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -244,7 +244,7 @@
                     <key>BundlePath</key>
                     <string>BrcmFirmwareData.kext</string>
                     <key>Comment</key>
-                    <string>V2.5.5</string>
+                    <string>V2.6.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -262,7 +262,7 @@
                     <key>BundlePath</key>
                     <string>BrcmPatchRAM3.kext</string>
                     <key>Comment</key>
-                    <string>V2.5.5</string>
+                    <string>V2.6.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -280,7 +280,7 @@
                     <key>BundlePath</key>
                     <string>RealtekRTL8111.kext</string>
                     <key>Comment</key>
-                    <string>V2.4.0</string>
+                    <string>V2.4.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -298,7 +298,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.2</string>
+                    <string>V1.5.5</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1099,6 +1099,12 @@
                 <integer>0</integer>
                 <key>KeySubsequentDelay</key>
                 <integer>5</integer>
+                <key>PointerPollMask</key>
+                <integer>-1</integer>
+                <key>PointerPollMax</key>
+                <integer>80</integer>
+                <key>PointerPollMin</key>
+                <integer>10</integer>
                 <key>PointerSpeedDiv</key>
                 <integer>1</integer>
                 <key>PointerSpeedMul</key>
@@ -1110,19 +1116,23 @@
                 <integer>0</integer>
                 <key>AudioDevice</key>
                 <string>PciRoot(0x0)/Pci(0x1b,0x0)</string>
-                <key>AudioOut</key>
-                <integer>0</integer>
+                <key>AudioOutMask</key>
+                <integer>1</integer>
                 <key>AudioSupport</key>
                 <false/>
-                <key>MinimumVolume</key>
-                <integer>20</integer>
+                <key>DisconnectHda</key>
+                <false/>
+                <key>MaximumGain</key>
+                <integer>-15</integer>
+                <key>MinimumAssistGain</key>
+                <integer>-30</integer>
+                <key>MinimumAudibleGain</key>
+                <integer>-55</integer>
                 <key>PlayChime</key>
                 <string>Disabled</string>
                 <key>ResetTrafficClass</key>
                 <false/>
                 <key>SetupDelay</key>
-                <integer>0</integer>
-                <key>VolumeAmplifier</key>
                 <integer>0</integer>
             </dict>
             <key>ConnectDrivers</key>
@@ -1195,6 +1205,8 @@
                 <false/>
                 <key>ProvideConsoleGop</key>
                 <true/>
+                <key>ReconnectGraphicsOnConnect</key>
+                <false/>
                 <key>ReconnectOnResChange</key>
                 <false/>
                 <key>ReplaceTabWithSpace</key>
@@ -1205,6 +1217,8 @@
                 <false/>
                 <key>TextRenderer</key>
                 <string>BuiltinGraphics</string>
+                <key>UIScale</key>
+                <integer>-1</integer>
                 <key>UgaPassThrough</key>
                 <false/>
             </dict>
@@ -1254,6 +1268,8 @@
                 <key>DisableSecurityPolicy</key>
                 <false/>
                 <key>EnableVectorAcceleration</key>
+                <false/>
+                <key>EnableVmx</key>
                 <false/>
                 <key>ExitBootServicesDelay</key>
                 <integer>0</integer>
