@@ -10,7 +10,7 @@
 | GPU                    | RX 6800 XT (All Polaris & Navi cards) |
 | RAM                    | 16G DDR4 (8G * 2)                     |
 | Wireless & Bluetooth   | DW1820A                               |
-| macOS                  | Big Sur & Catalina                    |
+| macOS                  | Monterey                              |
 
 ## Read Me First!
 
