@@ -104,6 +104,41 @@
                     <key>built-in</key>
                     <data>AQ==</data>
                 </dict>
+                <key>PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
+                <dict>
+                    <key>@0,name</key>
+                    <string>ATY,Belknap</string>
+                    <key>@1,name</key>
+                    <string>ATY,Belknap</string>
+                    <key>@2,name</key>
+                    <string>ATY,Belknap</string>
+                    <key>@3,name</key>
+                    <string>ATY,Belknap</string>
+                    <key>ATY,Card#</key>
+                    <string>102-D41711-00</string>
+                    <key>ATY,Copyright</key>
+                    <string>Copyright AMD Inc. All Rights Reserved. 2005-2021</string>
+                    <key>ATY,DeviceName</key>
+                    <string>W6800X</string>
+                    <key>ATY,EFIVersion</key>
+                    <string>01.01.270</string>
+                    <key>ATY,EFIVersionB</key>
+                    <string>113-D417A1XL-021</string>
+                    <key>ATY,EFIVersionE</key>
+                    <string>113-D4171N-436</string>
+                    <key>ATY,EFIVersionROMB</key>
+                    <string>113-D417A1XL-021</string>
+                    <key>ATY,FamilyName</key>
+                    <string>Radeon Pro</string>
+                    <key>ATY,Rom#</key>
+                    <string>113-D4171M-270</string>
+                    <key>device_type</key>
+                    <string>ATY,BelknapParent</string>
+                    <key>model</key>
+                    <string>AMD Radeon PRO W6800X</string>
+                    <key>name</key>
+                    <string>ATY,Belknap</string>
+                </dict>
             </dict>
             <key>Delete</key>
             <dict/>
