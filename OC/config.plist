@@ -104,41 +104,6 @@
                     <key>built-in</key>
                     <data>AQ==</data>
                 </dict>
-                <key>PciRoot(0x0)/Pci(0x3,0x1)/Pci(0x0,0x0)/Pci(0x0,0x0)/Pci(0x0,0x0)</key>
-                <dict>
-                    <key>@0,name</key>
-                    <string>ATY,Belknap</string>
-                    <key>@1,name</key>
-                    <string>ATY,Belknap</string>
-                    <key>@2,name</key>
-                    <string>ATY,Belknap</string>
-                    <key>@3,name</key>
-                    <string>ATY,Belknap</string>
-                    <key>ATY,Card#</key>
-                    <string>102-D41711-00</string>
-                    <key>ATY,Copyright</key>
-                    <string>Copyright AMD Inc. All Rights Reserved. 2005-2021</string>
-                    <key>ATY,DeviceName</key>
-                    <string>W6800X</string>
-                    <key>ATY,EFIVersion</key>
-                    <string>01.01.270</string>
-                    <key>ATY,EFIVersionB</key>
-                    <string>113-D417A1XL-021</string>
-                    <key>ATY,EFIVersionE</key>
-                    <string>113-D4171N-436</string>
-                    <key>ATY,EFIVersionROMB</key>
-                    <string>113-D417A1XL-021</string>
-                    <key>ATY,FamilyName</key>
-                    <string>Radeon Pro</string>
-                    <key>ATY,Rom#</key>
-                    <string>113-D4171M-270</string>
-                    <key>device_type</key>
-                    <string>ATY,BelknapParent</string>
-                    <key>model</key>
-                    <string>AMD Radeon PRO W6800X</string>
-                    <key>name</key>
-                    <string>ATY,Belknap</string>
-                </dict>
             </dict>
             <key>Delete</key>
             <dict/>
@@ -153,7 +118,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.0</string>
+                    <string>V1.6.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -171,7 +136,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.9</string>
+                    <string>V1.3.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -189,7 +154,7 @@
                     <key>BundlePath</key>
                     <string>AirportBrcmFixup.kext</string>
                     <key>Comment</key>
-                    <string>V2.1.5</string>
+                    <string>V2.1.6</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -225,7 +190,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.2</string>
+                    <string>V1.7.5</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -261,7 +226,7 @@
                     <key>BundlePath</key>
                     <string>BrcmBluetoothInjector.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.2</string>
+                    <string>V2.6.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -279,7 +244,7 @@
                     <key>BundlePath</key>
                     <string>BrcmFirmwareData.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.2</string>
+                    <string>V2.6.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -297,7 +262,7 @@
                     <key>BundlePath</key>
                     <string>BrcmPatchRAM3.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.2</string>
+                    <string>V2.6.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -333,7 +298,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.9</string>
+                    <string>V1.6.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -387,7 +352,7 @@
                     <key>BundlePath</key>
                     <string>BlueToolFixup.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.2</string>
+                    <string>V2.6.4</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1044,6 +1009,33 @@
             </dict>
             <key>Serial</key>
             <dict>
+                <key>Custom</key>
+                <dict>
+                    <key>BaudRate</key>
+                    <integer>115200</integer>
+                    <key>ClockRate</key>
+                    <integer>1843200</integer>
+                    <key>DetectCable</key>
+                    <false/>
+                    <key>ExtendedTxFifoSize</key>
+                    <integer>64</integer>
+                    <key>FifoControl</key>
+                    <integer>7</integer>
+                    <key>LineControl</key>
+                    <integer>3</integer>
+                    <key>PciDeviceInfo</key>
+                    <data>/w==</data>
+                    <key>RegisterAccessWidth</key>
+                    <integer>8</integer>
+                    <key>RegisterBase</key>
+                    <integer>1016</integer>
+                    <key>RegisterStride</key>
+                    <integer>1</integer>
+                    <key>UseHardwareFlowControl</key>
+                    <false/>
+                    <key>UseMmio</key>
+                    <false/>
+                </dict>
                 <key>Init</key>
                 <false/>
                 <key>Override</key>
@@ -1081,8 +1073,6 @@
             </dict>
             <key>Delete</key>
             <dict/>
-            <key>LegacyEnable</key>
-            <false/>
             <key>LegacyOverwrite</key>
             <false/>
             <key>LegacySchema</key>
@@ -1206,6 +1196,8 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>OpenRuntime.efi</string>
                 </dict>
@@ -1216,6 +1208,8 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>HFSPlus.efi</string>
                 </dict>
@@ -1226,6 +1220,8 @@
                     <string></string>
                     <key>Enabled</key>
                     <true/>
+                    <key>LoadEarly</key>
+                    <false/>
                     <key>Path</key>
                     <string>OpenCanopy.efi</string>
                 </dict>
